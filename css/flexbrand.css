@@ -1,29 +1,27 @@
 body{
     margin:center;
-    
     background-color:white;
     display: flexbox;
     height: 100vh;
-    justify-content: space-around;
+    justify-content: space-evenly;
     justify-items: center;
     align-items: center;
-    margin-left: 15%;
+    margin-left: 30%;
     margin-top: 10%;
     
 }
 
 .top {
-    
     flex-direction: row;
 
 }
 
 .bottom {
-    flex-direction: row-reverse;
+    flex-direction: row;
     
 }
 
 img{
-    width: 1200px;
-    height: 1000px;
+    width: 200px;
+    height: 200px;
 }
